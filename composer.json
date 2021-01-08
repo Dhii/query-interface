@@ -1,6 +1,6 @@
 {
-  "name": "dhii/php-project",
-  "description": "A PHP starter to ease project creation",
+  "name": "dhii/query-interface",
+  "description": "A light query abstraction standard.",
   "minimum-stability": "dev",
   "license": "MIT",
   "authors": [
@@ -20,12 +20,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Me\\Library\\": "src"
+      "Dhii\\Query\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Me\\Library\\Test\\": "tests"
+      "Dhii\\Query\\Test\\": "tests"
     }
   },
   "extra": {
