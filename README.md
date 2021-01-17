@@ -2,8 +2,8 @@
 A light query abstraction standard.
 
 ## Details
-This standard allows the abstraction of querying to a SOLID, immutable layer. This layer
-provides a CQRS model that represents a parameterized query, and a factory of such models.
+This abstracts querying to a SOLID, immutable layer, allowing for easy switching of implementation.
+This layer provides a CQRS model that represents a parameterized query, and a factory of such models.
 The model supports prepared statements, if they are supported by the DB driver. It also
 supports query parameter interpolation. This is inspired by [PDO][], and the realization
 that this can easily be normalized to an interop interface.
