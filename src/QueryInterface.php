@@ -28,6 +28,7 @@ interface QueryInterface
      * Creates a new query with the specified param.
      *
      * @param string $name The name of the parameter.
+     * @phpcsSuppress SlevomatCodingStandard.TypeHints.ParameterTypeHint.MissingAnyTypeHint
      * @param ?scalar|Stringable $value The value of the parameter
      * @return self A new instance of this class, with the specified param added.
      */
@@ -36,6 +37,7 @@ interface QueryInterface
     /**
      * Creates a new query with only the specified params.
      *
+     * @phpcsSuppress SlevomatCodingStandard.TypeHints.ParameterTypeHint.MissingTraversableTypeHintSpecification
      * @param array<array-key, ?scalar|Stringable> $params The map of param names to values.
      * @return self A new instance of this class, with only the specified params.
      */
