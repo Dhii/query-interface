@@ -51,7 +51,6 @@
       <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
       <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
       <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
-      <path value="$PROJECT_DIR$/vendor/webmozart/glob" />
       <path value="$PROJECT_DIR$/vendor/felixfbecker/language-server-protocol" />
       <path value="$PROJECT_DIR$/vendor/dhii/collections-interface" />
     </include_path>
