@@ -11,9 +11,10 @@ that this can easily be normalized to an interop interface.
 ## Examples
 
 ### Creat and Run Parameterized Query
+
 ```php
 <?php
-use Dhii\Query\StringQueryFactoryInterface;
+use Dhii\Collection\CountableMapInterface;use Dhii\Query\StringQueryFactoryInterface;
 use Dhii\Query\QueryInterface;
 
 /* @var StringQueryFactoryInterface $queryFactory */
@@ -26,6 +27,7 @@ function getMillenialNames (QueryInterface $query): iterable {
     ])->getResults();
     
     foreach ($results as $row) {
+        assert($row instanceof CountableMapInterface);
         yield $row->get('name');
     }
 }
